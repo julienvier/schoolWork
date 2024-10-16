@@ -24,7 +24,7 @@ public class EchoServer {
                     String receivedLine;
                     while ((receivedLine = input.readLine()) != null) {
                         System.out.println("Empfangen: " + receivedLine);
-                        output.println(receivedLine); // Echo an den Client
+                        output.println(receivedLine);
                     }
 
                     System.out.println("Verbindung zum Client geschlossen.");
